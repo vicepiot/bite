@@ -1,4 +1,36 @@
 body {
-background-color: rgb(230,230,230);
-color: black ;
+	background-color: #a0cfd3
+	color: white;
+	text-align: center;
+}
+h1 {
+	color: #c57b57;
+	 background-color: #0f4c5c;
+
+}
+h2{ background-color: #fb8b24; }
+p{text-decoration-color: #0f4c5c}
+
+.medias {
+	background-color: #c57b57;
+
+	border-radius: 5%;
+	width:600px ;
+	margin: 0 auto;
+}
+.presentation {
+	background-color:  #c57b57
+	margin: 0 auto;
+	border-radius: 10px;
+	width:600px ;
+}
+.phrase intro { text-align: auto; }
+.container {
+	display: flex;
+}
+@media (max-width: 500px) {
+	.container {
+	witdh: 500px; 
+	margin: 40px auto;
+	} 
 }
